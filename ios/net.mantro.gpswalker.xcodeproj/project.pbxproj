@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57114C61D378B44004FEAB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57114C51D378B44004FEAB8 /* AppDelegate.swift */; };
+		B57114C81D378B44004FEAB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57114C71D378B44004FEAB8 /* ViewController.swift */; };
+		B57114CB1D378B44004FEAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57114C91D378B44004FEAB8 /* Main.storyboard */; };
+		B57114CD1D378B44004FEAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57114CC1D378B44004FEAB8 /* Assets.xcassets */; };
+		B57114D01D378B44004FEAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57114CE1D378B44004FEAB8 /* LaunchScreen.storyboard */; };
+		B5CD08761D3A568700F87B6B /* autolocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B5CD08751D3A568700F87B6B /* autolocation.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B57114C21D378B44004FEAB8 /* net.mantro.gpswalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = net.mantro.gpswalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57114C51D378B44004FEAB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B57114C71D378B44004FEAB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B57114CA1D378B44004FEAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57114CC1D378B44004FEAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B57114CF1D378B44004FEAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B57114D11D378B44004FEAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CD08751D3A568700F87B6B /* autolocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = autolocation.gpx; path = ../../gpxwriter/autolocation.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57114BF1D378B44004FEAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57114B91D378B44004FEAB8 = {
+			isa = PBXGroup;
+			children = (
+				B57114C41D378B44004FEAB8 /* net.mantro.gpswalker */,
+				B57114C31D378B44004FEAB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57114C31D378B44004FEAB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57114C21D378B44004FEAB8 /* net.mantro.gpswalker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57114C41D378B44004FEAB8 /* net.mantro.gpswalker */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD08751D3A568700F87B6B /* autolocation.gpx */,
+				B57114C51D378B44004FEAB8 /* AppDelegate.swift */,
+				B57114C71D378B44004FEAB8 /* ViewController.swift */,
+				B57114C91D378B44004FEAB8 /* Main.storyboard */,
+				B57114CC1D378B44004FEAB8 /* Assets.xcassets */,
+				B57114CE1D378B44004FEAB8 /* LaunchScreen.storyboard */,
+				B57114D11D378B44004FEAB8 /* Info.plist */,
+			);
+			path = net.mantro.gpswalker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57114C11D378B44004FEAB8 /* net.mantro.gpswalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57114D41D378B44004FEAB8 /* Build configuration list for PBXNativeTarget "net.mantro.gpswalker" */;
+			buildPhases = (
+				B57114BE1D378B44004FEAB8 /* Sources */,
+				B57114BF1D378B44004FEAB8 /* Frameworks */,
+				B57114C01D378B44004FEAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = net.mantro.gpswalker;
+			productName = net.mantro.gpswalker;
+			productReference = B57114C21D378B44004FEAB8 /* net.mantro.gpswalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57114BA1D378B44004FEAB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ben;
+				TargetAttributes = {
+					B57114C11D378B44004FEAB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H8T9ULGR9M;
+					};
+				};
+			};
+			buildConfigurationList = B57114BD1D378B44004FEAB8 /* Build configuration list for PBXProject "net.mantro.gpswalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57114B91D378B44004FEAB8;
+			productRefGroup = B57114C31D378B44004FEAB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57114C11D378B44004FEAB8 /* net.mantro.gpswalker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57114C01D378B44004FEAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57114D01D378B44004FEAB8 /* LaunchScreen.storyboard in Resources */,
+				B57114CD1D378B44004FEAB8 /* Assets.xcassets in Resources */,
+				B57114CB1D378B44004FEAB8 /* Main.storyboard in Resources */,
+				B5CD08761D3A568700F87B6B /* autolocation.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57114BE1D378B44004FEAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57114C81D378B44004FEAB8 /* ViewController.swift in Sources */,
+				B57114C61D378B44004FEAB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B57114C91D378B44004FEAB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57114CA1D378B44004FEAB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57114CE1D378B44004FEAB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57114CF1D378B44004FEAB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57114D21D378B44004FEAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B57114D31D378B44004FEAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57114D51D378B44004FEAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = net.mantro.gpswalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mantro.walker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B57114D61D378B44004FEAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = net.mantro.gpswalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mantro.walker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57114BD1D378B44004FEAB8 /* Build configuration list for PBXProject "net.mantro.gpswalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57114D21D378B44004FEAB8 /* Debug */,
+				B57114D31D378B44004FEAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57114D41D378B44004FEAB8 /* Build configuration list for PBXNativeTarget "net.mantro.gpswalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57114D51D378B44004FEAB8 /* Debug */,
+				B57114D61D378B44004FEAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57114BA1D378B44004FEAB8 /* Project object */;
+}
