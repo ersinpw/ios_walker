@@ -15,7 +15,7 @@ Small tool to emulate "walking" on IOS. It consists of two parts:
 
 ### Starting point?
 
-Check your starting point with Google Maps. Copy over LAT/LONG and edit it in the gpxwriter/mover.js file.
+Check your starting point with Google Maps. Copy over LAT/LONG and edit it in the walker/walker.js file.
 If you don't do it, you will start somewhere in Munich :-)
 
 ### Accessibility
@@ -23,19 +23,19 @@ If you don't do it, you will start somewhere in Munich :-)
 (TODO)
 
 
-### GPXWriter 
+### Walker 
 
 ```bash
-cd gpxwriter
+cd walker
 npm install
-node mover.js
+node walker.js
 ```
 
-The tool will start at the location hardcoded into mover.js. After initial start it will continue from the last known coordinate. 
+The tool will start at the location hardcoded into walker.js. After initial start it will continue from the last known coordinate. 
 
-If you want to reset to other coordinates: quit mover.js and
+If you want to reset to other coordinates: quit walker.js and
 
-* either change the coordinates in mover.js and delete the .gpx file
+* either change the coordinates in walker.js and delete the .gpx file
 * or edit in the gpx file directly
 
 
