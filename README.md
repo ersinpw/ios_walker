@@ -25,6 +25,14 @@ npm install
 node mover.js
 ```
 
+The tool will start at the location hardcoded into mover.js. After initial start it will continue from the last known coordinate. 
+
+If you want to reset to other coordinates: quit mover.js and
+
+* either change the coordinates in mover.js and delete the .gpx file
+* or edit in the gpx file directly
+
+
 ### IOS
 
 Open the IOS project.
