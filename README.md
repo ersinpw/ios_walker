@@ -1,9 +1,15 @@
-# GPX Writer 
+# IOS Walker
 
 Small tool to emulate "walking" on IOS. It consists of two parts:
 
 * gpxwriter (generates the GPS coordinates and writes them into a file)
 * ios (empty application which is used to simulate location on the device)
+
+## Requirements
+
+* node (v4/v6)
+* XCode
+* IPhone
 
 ## Instructions
 

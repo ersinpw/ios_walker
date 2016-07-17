@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53C4B1B1D3BD693007B1DC4 /* autolocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B53C4B1A1D3BD693007B1DC4 /* autolocation.gpx */; };
 		B57114C61D378B44004FEAB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57114C51D378B44004FEAB8 /* AppDelegate.swift */; };
 		B57114C81D378B44004FEAB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57114C71D378B44004FEAB8 /* ViewController.swift */; };
 		B57114CB1D378B44004FEAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57114C91D378B44004FEAB8 /* Main.storyboard */; };
 		B57114CD1D378B44004FEAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57114CC1D378B44004FEAB8 /* Assets.xcassets */; };
 		B57114D01D378B44004FEAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57114CE1D378B44004FEAB8 /* LaunchScreen.storyboard */; };
-		B5CD08761D3A568700F87B6B /* autolocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B5CD08751D3A568700F87B6B /* autolocation.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B53C4B1A1D3BD693007B1DC4 /* autolocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = autolocation.gpx; path = ../../walker/autolocation.gpx; sourceTree = "<group>"; };
 		B57114C21D378B44004FEAB8 /* net.mantro.gpswalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = net.mantro.gpswalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57114C51D378B44004FEAB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B57114C71D378B44004FEAB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		B57114CC1D378B44004FEAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57114CF1D378B44004FEAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57114D11D378B44004FEAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5CD08751D3A568700F87B6B /* autolocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = autolocation.gpx; path = ../../gpxwriter/autolocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		B57114C31D378B44004FEAB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B57114C21D378B44004FEAB8 /* net.mantro.gpswalker */,
+				B57114C21D378B44004FEAB8 /* net.mantro.gpswalker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 		B57114C41D378B44004FEAB8 /* net.mantro.gpswalker */ = {
 			isa = PBXGroup;
 			children = (
-				B5CD08751D3A568700F87B6B /* autolocation.gpx */,
+				B53C4B1A1D3BD693007B1DC4 /* autolocation.gpx */,
 				B57114C51D378B44004FEAB8 /* AppDelegate.swift */,
 				B57114C71D378B44004FEAB8 /* ViewController.swift */,
 				B57114C91D378B44004FEAB8 /* Main.storyboard */,
@@ -129,7 +129,7 @@
 				B57114D01D378B44004FEAB8 /* LaunchScreen.storyboard in Resources */,
 				B57114CD1D378B44004FEAB8 /* Assets.xcassets in Resources */,
 				B57114CB1D378B44004FEAB8 /* Main.storyboard in Resources */,
-				B5CD08761D3A568700F87B6B /* autolocation.gpx in Resources */,
+				B53C4B1B1D3BD693007B1DC4 /* autolocation.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
