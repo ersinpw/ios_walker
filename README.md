@@ -1,4 +1,4 @@
-# IOS Walker
+# IOS Walker (Catch 'em all!)
 
 Small tool to emulate "walking" on IOS. It consists of two parts:
 
@@ -11,6 +11,7 @@ Small tool to emulate "walking" on IOS. It consists of two parts:
 * XCode
 * IPhone
 
+
 ## Instructions
 
 ### Starting point?
@@ -20,7 +21,9 @@ If you don't do it, you will start somewhere in Munich :-)
 
 ### Accessibility
 
-(TODO)
+Go to "System Settings" | "Security & Privacy" | "Privacy" | "Accessibility" and add "Terminal.app" there. 
+
+This is needed to allow the NodeJS application to remote control XCode.
 
 
 ### Walker 
@@ -38,22 +41,26 @@ If you want to reset to other coordinates: quit walker.js and
 * either change the coordinates in walker.js and delete the .gpx file
 * or edit in the gpx file directly
 
+If this is your first start, don't press any key yet, complete the other steps first.
+
 
 ### IOS
 
 Open the IOS project.
 
-Run it on your device.
+Run it on your device (fix any licensing issue as you go).
 
 Click "Debug | Simulate location | Autolocation" (this is important as the software might not be able to find the menu item if you did not click it before)
 
-### Control position
+### Validate
 
-All keys around "D" change your location as if there was a compass. "D" itself stops walking.
+Open Google Maps on your device. Your "location" should now be set to the new coordinates.
 
-"Q" quits the application.
+### Control position (in the NodeJS application)
 
-The application will resume on your last position.
+The valid keys are listed when starting. "D" will stop talking, all other keys resemble a compass. 
+
+Yep, could be more user friendly. Don't care right now.
 
 
 # License
